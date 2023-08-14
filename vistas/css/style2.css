@@ -1,0 +1,705 @@
+body{
+    background: #faffee;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+   
+   
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    height: 30px;
+}
+.logosi{
+  text-align: center;
+
+   
+}
+.logosi img{
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+.logosi2 img{
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: -50px;
+}
+
+h2{
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+
+.contenedor{
+    display: flex;
+    width: 100% ;
+    height: 105px;
+    justify-content: center;
+  
+   
+}
+
+.contenedor_cubiertas{
+    display: flex;
+    width: 100% ;
+    height: 100px;
+    justify-content:center ;
+   
+   
+}
+
+.cubierta_c{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/c_chocolate.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;
+    box-shadow: 2px 2px 2px black;
+   
+
+}
+.cubierta_p{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/c_pastelera.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;   
+    box-shadow: 2px 2px 2px black;
+
+}
+
+.cubierta_m{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/c_merengue.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;
+    box-shadow: 2px 2px 2px black;   
+
+}
+.cubierta_d{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/c_arequipe.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;   
+    box-shadow: 2px 2px 2px black;
+
+}
+
+
+/* estilos de cambios para las cubiertas */
+
+.cubierta_c.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/c_chocolate.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+
+.cubierta_p.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/c_pastelera.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+.cubierta_m.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/c_merengue.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+.cubierta_d.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/c_arequipe.png);
+    width: 120px;
+    height: 120px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+
+
+
+
+/* formato de cajas de seleccion de toppins*/
+
+.cajita1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/fresa1.png);
+    width:  100px;
+    height: 100px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;
+    box-shadow: 2px 2px 2px black;
+   
+    
+}
+
+.cajita1.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/fresa1.png);
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+
+
+
+.cajita2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/oreo1.png);
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;
+    box-shadow: 2px 2px 2px black;
+   
+    
+}
+
+.cajita2.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/oreo1.png);
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(76, 76, 76);
+
+}
+
+
+.cajita3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+    )
+    ,url(../img/mym.png);
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(205, 205, 205);
+    margin-right: 0.7rem;
+    box-shadow: 2px 2px 2px black;
+   
+    
+}
+
+.cajita3.cambio1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.20),
+        rgba(0,0,0,0.20)
+    )
+    ,url(../img/mym.png);
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(76, 76, 76);
+    
+
+}
+
+
+
+
+
+/* estilos bases caja principal */
+
+.contenedor_principal{
+    
+    width: 100%;
+    height: 600px;
+
+    width: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.contenedor-texto-dinamico{
+    display: flex;
+  background-color: #e8f1a3;
+    height: 200px;
+    width: 26.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;    
+    border: solid 1px rgb(76, 76, 76);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px black;
+    
+    
+}
+
+.contenedor_botones_inf {
+       
+    display: flex;
+    width: 26.5rem;
+    margin-left: 1px;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+.boton4{
+     
+    font-family: Helvetica, sans-serif;
+    width: 100px;
+    height: 90px;
+    background: #bbd406;      
+    font-weight: bold;         
+    font-size: 18px;  
+   
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #9dae1e;
+    box-shadow: 2px 2px 10px #bbd406;
+    margin-left: 2rem;
+    
+ }
+
+
+
+.boton4:hover{
+ width: 100px;
+ background: #e8f1a3;
+ border:0px;    
+
+}
+
+
+.caja-principal{
+    margin-top: 10px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+
+    width: 26.5rem;
+    height: 530px;
+    background-image:
+    url(../img/bizcocho-v.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;    
+    border: solid 1px rgb(76, 76, 76);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 2px black;
+  }
+
+
+
+/* cambio de cursores sobre la caja principal*/
+
+.caja-principal.c_chocolate{   
+    cursor: url("../img/c_chocolate.png") 32 32, pointer;   
+
+}
+
+.caja-principal.c_pastelera{   
+    cursor: url("../img/c_pastelera.png") 32 32, pointer;   
+
+}
+.caja-principal.c_merengue{   
+    cursor: url("../img/c_merengue.png") 32 32, pointer;   
+
+}
+.caja-principal.c_dulce{   
+    cursor: url("../img/c_arequipe.png") 32 32, pointer;   
+
+}
+
+
+.caja-principal.fresa{   
+    cursor: url("../img/fresa1.png") 32 32, pointer;   
+
+}
+
+.caja-principal.oreo{   
+    cursor: url("../img/oreo1.png") 32 32, pointer;   
+}
+
+.caja-principal.mym{   
+    cursor: url("../img/mym.png") 32 32, pointer;   
+}
+
+
+/* estilos cubiertas caja principal */
+
+.caja-principal.cubierta_chocolate{   
+    background-image:
+    url(../img/cake_cubierta_chocolate.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+.caja-principal.cubierta_merengue{   
+    background-image:
+    url(../img/cake_cubierta_merengue.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+
+
+
+
+
+
+/* clases que cambian el fondo del div principal para el modelo de chocolate */
+
+
+
+.caja-principal.chocofresa{   
+    background-image:
+    url(../img/cake_cubiertachocolate_fresas.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+.caja-principal.chocooreo{   
+    background-image:
+    url(../img/cake_chocolate_oreo.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+.caja-principal.chocomym{   
+    background-image:
+    url(../img/cake_chocolate_mym.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+
+/* clases que cambian el fondo del div principal para el modelo de chocolate */
+
+.caja-principal.merengueFresa{   
+    background-image:
+    url(../img/cake_merengue_fresas.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+
+.caja-principal.merengueOreo{   
+    background-image:
+    url(../img/cake_merengue_oreo.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+
+.caja-principal.merengueMym{   
+    background-image:
+    url(../img/cake_merengue_mym.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+}
+
+
+
+/* clases que cambian el fondo del div principal para el modelo de merengue */
+
+.caja-principal.oreo2{   
+    background-image:
+    url(../img/torta_oreo1.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+
+.caja-principal.fresa2{   
+    background-image:
+    url(../img/cake1.png);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+
+}
+
+
+
+
+/* botones para remover las cubiertas y los agregados */
+
+.boton1{
+    background-color: red;
+   font-family: Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   color: #111111;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   
+    text-decoration: none;
+    width: 97px;
+    height: 97px;
+    border: solid 3px #111111;
+    border-radius: 5px;
+    margin-right: 0.7rem;
+}
+
+.boton2{
+   background-color: #bbd406;
+   font-family: Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   color: #111111;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   
+   
+    text-decoration: none;
+    width: 117px;
+    height: 117px;
+    border: solid 3px #111111;
+    margin-right: 0.7rem;
+    border-radius: 5px;
+}
+
+.boton3{
+    background-color: #bbd406;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #111111;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+     text-decoration: none;
+     width: 97px;
+     height: 97px;
+     border: solid 3px #111111;
+     margin-right: 0.7rem;
+     border-radius: 5px;
+ }
+
+
+
+
+a{
+    text-decoration: none;
+}
+.boton2 :hover{
+    color: #faffee;
+}
+
+.boton1 :hover{
+    color: #faffee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor-g{
+display: flex;
+width: 100%px;
+justify-content:center;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+margin-top: 5px;
+}
+
+.contenedor-g a{
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica, sans-serif;
+}
+.contenedor-g div{
+    margin-left: 20px;
+}
+
+.contenedor-titulo{
+    
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: Helvetica, sans-serif;
+}
+.contenedor-titulo h2{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+/* estilos del pie de pagina */
+
+footer{
+    padding: 0px;      
+    position: relative;
+    bottom: -5em;
+    width: 100%;
+   
+
+ 
+}
+
+.foot-contenedor{
+  margin-top: 150px;
+  display: flex;    
+  flex-direction: column;
+  margin-right: 0px;
+
+}
+
+.footer1{
+  background-color: rgb(134, 134, 134);
+  text-align: center;
+  padding: 0px;
+ 
+ 
+}
+.footer1 p{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0.3em;
+ 
+
+}
+.footer2{
+
+  background-color: rgb(49, 49, 49);  
+  bottom: 0px;    
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer2 img{
+  margin-top: 6px;
+  
+}
+.footer2 p{
+
+
+ color: white;
+ margin-left: 25px;
+ line-height: 0.5em;
+}
+
+
+
+.text{
+    font-family: Helvetica, sans-serif;
+    padding: 1px;
+    margin-top: 7px;
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  
+ color: black
+}
