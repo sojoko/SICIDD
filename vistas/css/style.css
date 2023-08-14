@@ -1,6 +1,5 @@
 body{
     background: #faffee;;
-    background-image: url(../Proyecto-SICIDD/img/fondo2.png);
     background-size: contain;
     
    
@@ -657,7 +656,7 @@ margin-top: 6rem;
  }
 
  thead, tfoot {
-    background: url(leopardskin.jpg);
+
     color:black;
     text-shadow: 1px 1px 1px black;
   }
@@ -998,7 +997,7 @@ button:hover{
 .slider{
   
     display: flex;
-    transform: translate(0,0,0);
+    transform: translate(0,0);
     transition: all 1500ms;
     animation-name: autoplay;
     animation-duration: 24s;
